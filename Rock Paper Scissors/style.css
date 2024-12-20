@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(205, 236, 248);
+}
+h1{
+    background-color: #081b31;
+    color: white;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.choice:hover{
+   cursor: pointer;
+   background-color: #081b31;
+}
+.choice{
+    height: 160px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+img{
+    height: 150px;
+    width: 150px; 
+    object-fit: cover;
+    border-radius: 50%;
+  
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+#user-score, #comp-score{
+   font-size: 4rem;
+   justify-self: cente;
+}
+#user-score{
+    margin-left: .70rem;
+}
+#comp-score{
+   margin-left: 3rem;
+}
+.msg-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 3rem;
+}
+#msg{
+    font-size: 2rem;
+    border-radius: 5rem;
+    padding: 1rem;
+    display: inline;
+    background-color: #081b31;
+    color: white;
+}
+#reset{
+    font-size: 2rem;
+    border-radius: 5rem;
+    padding: 1rem;
+    display: inline;
+    background-color: #081b31;
+    color: white;
+}
+#set{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 3rem;
+}
+#reset:hover{
+    cursor: pointer;
+    opacity: 0.75;
+    border-radius: 5rem;
+}
